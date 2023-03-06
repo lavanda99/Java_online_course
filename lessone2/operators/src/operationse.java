@@ -52,8 +52,19 @@ int y;
         System.out.println(x % 2 == 0);
         System.out.println("------------------------");
         x = 1;
-        System.out.println(x >= 1 && x<= 9);
+        System.out.println(x >= 1 && x <= 9);
+        boolean erknish = x >= 10 && x <= 99;
+        System.out.println(erknish);
 
-
+       boolean vv = x < 0 || x > 100; //kam
+        System.out.println(vv);
+        x = 97;
+        boolean dd = x % 2  ==0 && x >= 10 && x <= 99;
+        System.out.println(dd);
+        System.out.println("---------------");
+        System.out.println(5&8);
+        System.out.println(17&24);
+        System.out.println(5|8);
+        System.out.println(5^8);
     }
 }
