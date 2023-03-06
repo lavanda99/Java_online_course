@@ -20,6 +20,9 @@ public class Hello {
         char tt = '@'; // simvolneri hamar iranqunen nayev koder
         String s ="barev lessone 1";
         System.out.println(s);
+        int p = 7789;
+        System.out.println(p);
+
         String firstname = "Vle";
         String lastName = "Nerararyan";
         System.out.println(firstname + " " + lastName); // mejtexin@ probeli hamar
