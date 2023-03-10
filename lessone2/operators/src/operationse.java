@@ -1,19 +1,19 @@
 public class operationse {
     public static void main(String[] args) {
-      //  int x;
+      // int x;
      //   int $x;
-     //   int _x = 9;
+      //  int _x = 9;
      //   System.out.println(_x);
-     //    int a45 = 99;
-        //System.out.println(a45);
-    //    String firstNameOfTheBesStudents = "Nerkararyan";
-      //  String first_name = "Nerkararyan";
-      // String firstName = "Nerkararyan";
-       // System.out.println(first_name);
+      //   int a45 = 99;
+      //  System.out.println(a45);
+      //  String firstNameOfTheBesStudents = "Nerkararyan";
+       // String first_name = "Nerkararyan";
+     //  String firstName = "Nerkararyan";
+     //   System.out.println(first_name);
 
 
 
-int y;
+        int y;
         int a = 4, b = 3;
         int c = a + b;
         System.out.println(c);
@@ -30,7 +30,7 @@ int y;
         System.out.println(x);
         x = 3;
         y = 4;
-        c = x++ - --y;
+        c = 0;
         System.out.println("x= " + x);
         System.out.println("y= " + y);
         System.out.println("c= " + c);
@@ -43,10 +43,8 @@ int y;
         System.out.println(--y);
         System.out.println(y);
 
-       boolean bb = x == 12;
-        System.out.println(bb);
-        System.out.println(x != 9);
-        System.out.println(x > 4);
+        System.out.println( x != 9 );
+        System.out.println(x > 4 );
         System.out.println(x <= 44);
         x=4;
         System.out.println(x % 2 == 0);
@@ -55,8 +53,7 @@ int y;
         System.out.println(x >= 1 && x <= 9);
         boolean erknish = x >= 10 && x <= 99;
         System.out.println(erknish);
-
-       boolean vv = x < 0 || x > 100; //kam
+        boolean vv = x < 0 || x > 100; //kam
         System.out.println(vv);
         x = 97;
         boolean dd = x % 2  ==0 && x >= 10 && x <= 99;
@@ -65,6 +62,6 @@ int y;
         System.out.println(5&8);
         System.out.println(17&24);
         System.out.println(5|8);
-        System.out.println(5^8);
+        System.out.println(5 ^ 8);
     }
 }
